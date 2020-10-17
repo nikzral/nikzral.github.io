@@ -1,0 +1,133 @@
+body {
+background-color: black;
+}
+.myicon {
+border-radius: 50%;
+border: red solid 5px;
+margin: 0;
+position: absolute;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%);
+width: 25% 
+}
+@media only screen and (max-width: 975px) {
+  .myicon {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .myicon {
+    width: 42%;
+  }
+}
+@media only screen and (max-width: 675px) {
+  .myicon {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .myicon {
+    width: 57%;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .myicon {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .myicon {
+    width: 80%;
+  }
+  .nametitle {
+    top: 40%;
+  }
+}
+
+
+
+.nametitle {
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+color: white;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+top: 50%;
+position: absolute;
+font-size: 350%
+}
+
+@media only screen and (max-width: 375px) {
+.nametitle {
+    top: 40%;
+  }
+}
+.divbar {
+border: 1px solid rgba(255, 255, 255, 0.377);
+position: absolute;
+width: 80%;
+top: 60%;
+margin-left: 10%
+}
+
+@media only screen and (max-width: 375px) {
+.nametitle {
+    top: 50%;
+  }
+  .divbar {
+    top: 60%;
+  }
+}
+
+
+.descriptiontext {
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+top: 62%;
+position: absolute;
+text-align: center
+
+}
+.gitlogo {
+color: white;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+top: 78%;
+position: absolute;
+font-size: 275%
+}
+.twitlogo {
+color: white;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+top: 86%;
+position: absolute;
+font-size: 275%
+
+}
+.instalogo {
+color: white;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+top: 94%;
+position: absolute;
+font-size: 275%
+}
+
+.pinlogo {
+color: white;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+top: 67%;
+position: absolute;
+font-size: 150%;
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
