@@ -16,7 +16,6 @@ body {
     width: 35%;
   }
 }
-
 @media only screen and (max-width: 800px) {
   .myicon {
     width: 42%;
@@ -126,16 +125,4 @@ body {
   position: absolute;
   font-size: 150%;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-@media only screen and (max-height: 600px) {
-  .instalogo {
-    top: 100%;
-  }
-  .twitlogo {
-    top: 85%;
-  }
-  .gitlogo {
-    top: 60%;
-  }
 }
