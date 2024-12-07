@@ -1,68 +1,72 @@
-
-<!--Nov 17, 2023-->
-
 <!DOCTYPE html>
-<html>
-    <!--Import stylesheet and set up website title, settings, etc.-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Nik Zral</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <!--Start of website body-->
-    <body>
-        <!--Start of website header-->
-    <header>
-        <h1 class="portfolioHeaderTitle">Nik Zral</h1>
-        <h4 class="portfolioHeaderPortfolio">nikzral@uvic.ca</h4>
-    </header>
-    <!--Start of website first (Description) section-->
-    <section class="topSec">
-        <img class="sectionImage" src="mainImage.png">
-        <article>
-            <h3 class="abmw">About Me</h3>
-            <!--Start of website Description section-->
-            <section class="abmwTextSec">
-                <p class="abmwText">Welcome to my personal website, made with Vanilla HTML and CSS. I'm Nik Zral, a first-year student at the University of Victoria, from beautiful North Vancouver, BC. Beyond academia, I find my passion in coaching competitive sailing and indulging in freestyle skiing. With a programming journey spanning six years in HTML, CSS, and JS, four years in Python, and two years in Swift and SwiftUI, I've also delved into the realms of Node.js, PHP, and Pinescript. This website serves as a portfolio, showcasing some of my notable projects and reflecting my enthusiasm for the world of coding, economics and mathematics. Explore and enjoy!</p>
-            </section>
-        </article>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nik Zral - FinTech Enthusiast</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Nik Zral</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Welcome to my personal website! I'm Nik Zral, a first-year student at the University of Victoria, from beautiful North Vancouver, BC. Beyond academia, I find my passion in coaching competitive sailing and indulging in freestyle skiing.</p>
+      <p>With a programming journey spanning six years in HTML, CSS, and JS, four years in Python, and two years in Swift and SwiftUI, I've also delved into the realms of Node.js, PHP, and Pinescript. My current focus is on the exciting world of FinTech, where I'm exploring the intersection of finance, technology, and artificial intelligence.</p>
     </section>
-    <hr class="bodyDivider">
-    <!--Start of website second (Gallery) section-->
-    <section class="midSec">
-        <div class="galleryOA">
-            <h2 class="galleryText">Portfolio</h2>
-            <h4 class="gallerysubText">Some of my projects</h4>
-            <!--Start of website Gallery section-->
-            <section class="gallerySec">
-                <div class="iDiv">
-                    <img class="gallery Image1" src="img1.png">
-                    <br>
-                    <a class="gallerylink" href="https://github.com/nikzral/Markov-Chain-Simulation-with-Tkinter-GUI">Python3 Markov Chain Simulation</a>
-                </div>
-                <div class="iDiv">
-                    <img class="gallery Image2" src="img2.png">
-                    <br>
-                    <a class="gallerylink" href="https://github.com/nikzral/stat-alpha.github.io">STAT: Stock Technical Analysis Tool</a>
-                </div>
-                <div class="iDiv">
-                    <img class="gallery Image3" src="img3.png">
-                    <br>
-                    <a class="gallerylink" href="http://vitamate.ca/">Vitamate: Nutrition Planner</a>
-                </div>
-            </section>
-            
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-container">
+        <div class="project">
+          <h3>Newsroom Figment</h3>
+          <p>Newsroom Figment is an AI-powered platform that revolutionizes how trading tools can be created and deployed. It transforms how you do trading research through the power of natural language processing.</p>
+          <a href="https://www.news-room.ca" target="_blank" class="project-link">Visit Newsroom Figment</a>
         </div>
+        <div class="project">
+          <h3>STAT: Stock Technical Analysis Tool</h3>
+          <p>STAT is a comprehensive stock and crypto research platform that leverages advanced AI and real-time market data to provide traders with powerful analysis tools and insights.</p>
+          <a href="https://github.com/nikzral/STAT" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+        <div class="project">
+          <h3>Vitamate: Nutrition Planner</h3>
+          <p>Vitamate is a mobile application that helps users plan and track their daily nutritional intake. It uses machine learning to provide personalized recommendations based on individual goals and preferences.</p>
+          <a href="https://github.com/nikzral/Vitamate" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
     </section>
-    
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <a href="mailto:nikzral@uvic.ca">nikzral@uvic.ca</a>
+        <a href="https://www.linkedin.com/in/nikzral" target="_blank">LinkedIn</a>
+        <a href="https://github.com/nikzral" target="_blank">GitHub</a>
+      </div>
     </section>
-    <!--Start of website footer-->
-    <footer>
-        <p class="footertext">Nik Zral - Copyright &copy; 2023. All rights reserved.</p>
-    </footer>
-    <script src="" async defer></script>
-    </body>
+
+    <section id="3d-fintech">
+      <h2>FinTech in 3D</h2>
+      <div class="3d-container">
+        <ThreeJSScene />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Nik Zral. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
